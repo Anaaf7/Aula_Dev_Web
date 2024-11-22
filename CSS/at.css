@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+}
+
+header{
+    background-color: purple;
+    padding: 25px;
+}
+
+nav{
+    background-color: aqua;
+    padding: 25px;
+}
+
+.caixa{
+    display: flex;
+}
+
+article{
+    justify-content: left;
+    background-color: blue;
+    padding: 30px;
+    width: 50%;
+}
+
+section{
+    justify-content: center;
+    background-color: greenyellow;
+    padding: 30px;
+    width: 90%;
+}
+
+aside{
+    background-color: orange;
+    width: 50%;
+}
+
+footer{
+    background-color: red;
+    padding: 25px;
+}

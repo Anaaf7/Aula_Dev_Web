@@ -1,0 +1,32 @@
+table{
+    border: none;
+    text-align: center;
+}
+
+td{
+    padding: 10px;
+    border: solid 0.1px;
+}
+
+.amarelo{
+    background-color: yellow;
+}
+
+.vermelho{
+    background-color: red;
+}
+
+.azul{
+    background-color: blue;
+}
+
+.verde{
+    background-color: green;
+}
+
+.cinza{
+    background-color: grey;
+}
+
+
+

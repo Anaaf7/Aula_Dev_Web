@@ -1,0 +1,30 @@
+img {    /*IMAGEM*/
+    max-width: 250px; /*Tamanho da imagem*/
+    margin-right: 25px; /* dar espaço a direita*/
+    margin-left: 25px;  /* dar espaço a esquerda*/
+}
+
+body {  /*Toda a tela do site*/
+    display: flex;  /*Centralizar*/
+    justify-content: center;  /*Centralizar*/
+    }
+
+
+fieldset {   
+    border-radius: 25px; /* Deixar a borda do fieldset arredondada*/ 
+    }
+
+h1 {  /*Titulo: Fale conosco*/
+    display: flex; /*Centralizar*/
+    justify-content: center;  /*Centralizar*/
+}
+
+label {  
+    display: flex;  /*Centralizar*/
+    justify-content: center;   /*Centralizar*/
+}
+
+
+input, textarea {  /*Caixas de entrada*/
+    margin-left: 70px;   /*Centralizar deixando espaço a esquerda*/  
+}

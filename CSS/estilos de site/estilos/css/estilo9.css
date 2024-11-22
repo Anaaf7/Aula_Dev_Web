@@ -1,0 +1,36 @@
+body {
+    filter: drop-shadow( 0px 20px 20px);
+    display: flex; /*centralizar formulário*/
+    justify-content: center;  /*centralizar formulário*/
+}
+
+fieldset {
+    background-image: url('imagens/gatoMedico.png');
+    background-size: cover; /* Cobrir todo o campo */
+    border-radius: 50px; /*arredondar borda da imagem*/ 
+    border: none; /*retirar a borda do formulario*/
+}
+
+h1 {
+    text-align: center; /*alinhar o texto no centro do formulário*/
+}
+
+label {
+    font-weight: bold; /*espessura mais grossa para a letra*/
+}
+
+input, textarea, select {
+    background-color: transparent; /*retirar o fundo do input*/
+    border-color: rgba(0, 0, 0, 0.308); /*cor da borda do input*/
+}
+
+::placeholder {
+    color: black; /*cor do placeholder*/
+}
+
+input[type="submit"] {
+    background-color: #6e8399; /*cor dentro do input*/
+    color: black; /*cor da letra dentro do input*/
+    border-radius: 100px; /*input sem borda*/
+    font-size: 15px; /*tamanho da letra dentro do input*/
+}

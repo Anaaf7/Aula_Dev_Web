@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <h1>Formulário de montagem de banda</h1>
+            <fieldset>
+                <hr>
+                <h1>Parte 1: Informações pessoais</h1>
+                <br>
+
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" required>
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" required>
+                <br><br>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" name="telefone" required>
+                <br><br>
+
+                <label for="instrumento">Instrumento principal</label>
+                <select name="instrumento" required>
+                    <option value="selecione">Selecione seu isntrumento</option>
+                    <option value="guitarra">Guitarra</option>
+                    <option value="baixo">Baixo</option>
+                    <option value="bateria">Bateria</option>
+                </select>
+                <br><br>
+
+                <label for="genero">Gênero muiscal preferido:</label>
+                <input type="text" anme="genero">
+                <br><br>
+
+                <h1>Parte 2: sobre a banda</h1>
+                <br>
+
+                <label for="nomebanda">Qual o nome da sua banda?</label>
+                <br><br>
+                <input type="text" name="nomebanda" required>
+                <br><br>
+
+                <label for="estilomusic">Qual o estilo musical da sua banda?</label>
+                <br><br>
+                <input type="text" name="estilomusic" required>
+                <hr><br>
+
+                <h1>Parte 3: Procurando membros</h1>
+                <br>
+
+                <label for="instrumento">Quais instrumentos você ainda precisa para completar a banda?</label>
+                <br><br>
+
+                <input type="checkbox" value="guitarra">Guitarra
+                <br>
+                <input type="checkbox" value="baixo">Baixo
+                <br>
+                <input type="checkbox" value="bateria">Bateria
+                <br>
+                <input type="checkbox" value="Teclado">Teclado
+                <br>
+                <input type="checkbox" value="voz">Voz
+                <br>
+                <input type="checkbox" value="outro">outro
+                <br><br>
+
+                <label for="caracteristicas">Quais características você procura em um membro para a banda?</label>
+                <br><br>
+                <textarea name="caracteristicas"></textarea>
+                <br><br>
+
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Reiniciar">
+            </fieldset>
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form28</title>
+</head>
+
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <h1>Criação de novo projeto</h1>
+
+            <label for="nome">Nome do projeto:</label><br>
+            <textarea name="nome" id="" cols="50" rows="4"></textarea><br><br>
+
+            <label for="url">URL do repositório remoto do projeto:</label><br>
+            <input type="url" name="url" id=""><br><br>
+
+            <label for="datai">Data de início:</label>
+            <input type="date" name="datai" id=""><br><br>
+
+            <label for="datat">Data de término:</label>
+            <input type="date" name="datat" id=""><br><br>
+
+            <label for="cor">Cor do projeto:</label>
+            <input type="color" name="cor" id=""><br><br>
+
+            <label for="documentacao">Documentação do projeto:</label>
+            <input type="file" name="documentacao" id=""><br><br>
+
+            <label for="progresso">Progresso do projeto (iniciado-finalizado):</label><br>
+            <input type="range" name="progresso" id=""><br><br>
+
+            <label for="telefone">Telefone de contato:</label>
+            <input type="tel" name="telefone" id=""><br><br>
+
+            <label for="email">E-mail do contato:</label>
+            <input type="email" name="email" id=""><br><br>
+
+            <label for="link">Link de projetos similares:</label><br>
+            <textarea name="link" id="" cols="80" rows="3"></textarea><br><br>
+
+            <input type="submit" value="Criar projeto">
+            <br><br>
+            <hr>
+
+            <b>Projeto</b>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome do projeto:</th>
+                        <th>URL do repertório remoto:</th>
+                        <th>Data de inicio:</th>
+                        <th>Data de término:</th>
+                        <th>Cor do projeto:</th>
+                        <th>Documentação do projeto:</th>
+                        <th>Progresso do projeto:</th>
+                        <th>Telefone de conato:</th>
+                        <th>E-mail do contato:</th>
+                        <th>Links de projetos similares:</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>projeto de Desenvolvimento de Software</td>
+                        <td>https//github.com/projeto-software</td>
+                        <td>2023-03-01</td>
+                        <td>2023-06-30</td>
+                        <td>#008000</td>
+                        <td>documento pdf</td>
+                        <td>5</td>
+                        <td>(11) 1234-5678</td>
+                        <td>contato@projeto.com</td>
+                        <td>https////github.com/projeto-similar1
+                        https////github.com/projeto-similar2
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>

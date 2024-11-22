@@ -1,0 +1,64 @@
+body {
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color: red;
+}
+
+h1, h4{
+    color: black;
+    border: 2px solid;
+    border-radius: 10px;
+    letter-spacing: 7px;
+    text-align: center;
+    background-color: white;
+}
+
+li{
+    color: white;
+    margin-bottom: 10px; /*aumentar o espaço entre as linhas*/
+}
+
+.sc{
+    list-style-image: url(../css/imagens/sc.jpg);
+    color: white;
+}
+
+.pe{
+    list-style-image: url(../css/imagens/pe.jpg);
+    color: white;
+}
+
+.ba{
+    list-style-image: url(../css/imagens/ba.jpg);
+    color: white;
+}
+
+.pr{
+    list-style-image: url(../css/imagens/pr.jpg);
+    color: white;
+}
+
+.rs{
+    list-style-image: url(../css/imagens/rs.jpg);
+    color: white;
+}
+
+.mg{
+    list-style-image: url(../css/imagens/mg.jpg);
+    color: white;
+}
+
+.go{
+    list-style-image: url(../css/imagens/go.jpg);
+    color: white;
+}
+
+.sp{
+    list-style-image: url(../css/imagens/sp.jpg);
+    color: white;
+}
+
+.rj{
+    list-style-image: url(../css/imagens/rj.jpg);
+    color: white;
+}

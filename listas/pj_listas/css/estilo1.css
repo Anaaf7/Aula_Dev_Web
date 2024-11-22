@@ -1,0 +1,70 @@
+
+h1 , h4{
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+li{
+    text-align: center;
+    line-height: 2;
+    font-size: 25px;
+    border-radius: 30px;
+    margin-bottom: 10px; /*aumentar o espaço entre as linhas*/
+    margin-left: 250px; /*esquerda*/
+    margin-right: 250px; /*direita*/
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.sc{
+    list-style-image: url(../css/imagens/sc.jpg);
+    color: white;
+    background-color: #009739;
+}
+
+.pe{
+    list-style-image: url(../css/imagens/pe.jpg);
+    color: white;
+    background-color: #003087;
+}
+
+.ba{
+    list-style-image: url(../css/imagens/ba.jpg);
+    color: white;
+    background-color: #D21034;
+}
+
+.pr{
+    list-style-image: url(../css/imagens/pr.jpg);
+    color: white;
+    background-color: #00563F;
+}
+
+.rs{
+    list-style-image: url(../css/imagens/rs.jpg);
+    color: white;
+    background-color: #800000;
+}
+
+.mg{
+    list-style-image: url(../css/imagens/mg.jpg);
+    color: white;
+    background-color: #DAA520;
+}
+
+.go{
+    list-style-image: url(../css/imagens/go.jpg);
+    color: white;
+    background-color: #B9D500;
+}
+
+.sp{
+    list-style-image: url(../css/imagens/sp.jpg);
+    color: white;
+    background-color: #5B6770;
+}
+
+.rj{
+    list-style-image: url(../css/imagens/rj.jpg);
+    color: white;
+    background-color: #00AEEF;
+}

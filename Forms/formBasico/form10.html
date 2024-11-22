@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form10</title>
+</head>
+<body>
+    <h1>Cadastramento de aluno IFC</h1>
+    <form>
+       <fieldset>
+        <label for="data">Quando pretende começar?</label>
+        <input type="date" name="data">
+        <br><br>
+        <label for="nome">Nome completo</label>
+        <input type="text" name="nome" placeholder="Nome completo" required>
+        <br><br>
+        <label for="cpf">Insira seu CPF </label>
+        <input type="text" name="cpf"  required>
+        <br><br>
+        <label for="email">E-mail</label>
+        <input type="text" name="email" required>
+        <br><br>
+        <label for="senha">Criar senha</label>
+        <input type="password" name="senha" required>
+        <br><br>
+        <label for="senha">Confirmar senha</label>
+        <input type="password" name="senha" required>
+        <br><br>
+        <label for="matricula">Atestado de matrícula</label>
+        <input type="file" name="matricula" required>
+        <br><br>
+        <label for="curso">Escolha de cursos</label>
+       <select>
+        <option value="selecione">Selecione</option>
+        <optgroup label="superior">
+         <option value="bachareladocienciadacomputacao">Bacharelado em Ciência da Computção</option>
+         <option value="engenhariaagronomica">Engenharia Agronômica</option>
+         </optgroup>
+         <optgroup label="Médio">
+         <option value="Técnicoagroecologia">Técnico em Agroecologia</option>
+         <option value="Técnicoinformatica">Técnico em Informática para Internet</option>
+         <option value="Técnicoagropecuaria">Técnico em Agropecuária</option>
+         </optgroup>
+       </select>
+        <br><br>
+        <h2>Algo a mais para acrescentar?</h2>
+        <textarea name="obs" id="obs" cols="30" rows="10">Relate aqui...</textarea>
+        <br><br>
+        <input type="submit" name="cadastrar" value="Cadastrar">
+        <br>
+        <input type="reset" value="Reiniciar cadastro">
+       </fieldset>
+    </form>
+</body>
+</html>

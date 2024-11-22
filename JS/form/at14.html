@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>at14</title>
+</head>
+<body>
+    <script>
+        vhora = parseFloat(prompt("Digite o valor que você ganha por hora trabalhada: " , ""));
+        thora = parseFloat(prompt("Digite o seu total de horas trabalhadas nesse mês: " , ""));
+
+        salariol = vhora * thora;
+
+        inss = salariol * 0.08;
+        ir = salariol * 0.11;
+        fgts = salariol * 0.08; 
+        sindicato = salariol * 0.05;
+
+        descontos = inss + ir + sindicato;
+        salariob = salariol - descontos;
+
+        alert("O seu salário este mês será de: " + salariob + " reais, pois seu salário líquido é de: " + salariol + " reais, porém com os descontos mensais é descontado: " + descontos + " reais" + "\n" + "Você está pagando de INSS: " + inss + " reais, IR: " + ir + " reais, sindicato: "+ sindicato + " reais e receberá de FGTS: " + fgts + " reais");
+    </script>
+</body>
+</html>

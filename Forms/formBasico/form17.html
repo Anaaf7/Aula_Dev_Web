@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <h3>Coloque seu currículo no ar e adicione um link para uma página pessoal sua, podendo ser diretório, drive, repositório remoto, o que você quiser</h3>
+            <br>
+
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" required>
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" required>
+            <br><br>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" name="telefone" required>
+            <br><br>
+
+            <label for="pagina">Página pessoal (URL):</label>
+            <input type="url" name="pagina" required placeholder="https//curriculo.com">
+            <br><br>
+
+            <label for="formacao">Formação acadêmica:</label>
+            <br>
+            <input type="radio" name="tecnico">Técnico
+            <br>
+            <input type="radio" name="graduacao">Graduação
+            <br>
+            <input type="radio" name="mestrado">Mestrado
+            <br>
+            <input type="radio" name="doutorado">Doutorado
+            <br>
+            <input type="radio" name="posdoutorado">Pós-doutorado
+            <br><br>
+
+            <label for="areainteresse">Área de interesse:</label>
+            <select name="areainteresse" required>
+                <option value="selecione">Selecione a área de interesse</option>
+                <option value="administracao">Administração</option>
+                <option value="contabilidade">Contabilidade</option>
+                <option value="financa">Finança</option>
+            </select>
+            <br><br>
+
+            <label for="resumo">Resumo</label>
+            <br>
+            <textarea name="resumo"></textarea>
+            <br><br>
+
+            <label for="documento">Precisamos de um documento que indentifique a sua identidade!!!</label>
+            <br>
+            <input type="image" name="documento" required>
+            <br><br>
+
+            <input type="submit" value="Enviar currículo">
+        </fieldset>
+    </form>
+    
+</body>
+</html>

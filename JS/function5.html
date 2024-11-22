@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        function pegarValor(){
+            num = parseFloat(document.getElementById('num').value);
+            document.getElementById('copiado').value = num;
+            document.getElementById('titulo').value = num;
+        }
+    </script>
+    <title>at</title>
+</head>
+<body>
+    <h1 id="titulo"></h1>
+    <input type="text" name="num" id="num" oninput="pegarValor();">
+    <input type="submit" value="copiar" onclick="pegarValor();">
+    <input type="text" name="copiado" id="copiado" oninput="copiado();">
+</body>
+</html>

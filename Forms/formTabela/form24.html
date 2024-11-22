@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form24</title>
+</head>
+<body>
+    <form action="">
+            <h1>Cadastro de produtos para mercado</h1>
+
+            <label for="Marca">Marca do produto: </label>
+            <input type="text" name="nome" id="" placeholder="Digite o nome do produto...">
+            <br>
+
+            <label for="preco">Preço: </label>
+            <input type="number" name="preco" id="">
+            <br>
+
+            <label for="categoria">Categoria: </label>
+            <select name="categoria" id="">
+                <option value="alimentacao">Alimentação</option>
+                <option value="eletronicos">Eletrônicos</option>
+            </select>
+            <br>
+
+            <label for="marca">Marca: </label>
+            <input type="text" name="marca" id="" >
+            <br>
+
+            <label for="imagem">Imagem do produto: </label>
+            <input type="file" name="imagem" id="">
+            <br>
+
+            <label for="quantidade">Quantidade em estoque:</label>
+            <input type="number" name="quantidade" id="">
+            <br>
+
+            <label for="tamanho">Tamanho do produto em cm</label>
+            <input type="range" name="tamanho" id="">
+            <hr>
+            
+            <input type="submit" value="Cadastrar">
+            <input type="reset" value="Cancelar">
+            <hr><br><br>
+
+            <b>Apresentação de produtos</b>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome do produto:</th>
+                        <th>Preço:</th>
+                        <th>Categoria:</th>
+                        <th>Marca:</th>
+                        <th>Imagem do produto</th>
+                        <th>Unidades</th>
+                        <th>Tamanho em centímetros</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Refrigerante latinha</td>
+                        <td>R$3.00</td>
+                        <td>Alimentação</td>
+                        <td>Coca-cola</td>
+                        <td><img src="https://static.paodeacucar.com/img/uploads/1/348/24599348.jpg" alt="latinha de Coca-cola" width="60px"></td>
+                        <td>100</td>
+                        <td>15.9 cm</td>
+                    </tr>
+                </tbody>
+            </table>
+        
+    </form>
+</body>
+</html>

@@ -1,0 +1,26 @@
+/*exercicio
+projeto de hoje,aplicar ID, aplicar class, agrupamento, herança e seletor contextual
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(180, 180, 243, 0.61); /*herança*/
+
+}
+
+.dados, select {
+    background-color: black; /*class e agrupamento*/ 
+}
+
+#enviar, #convenio {
+    background-color: blueviolet; /*ID*/
+}
+
+label em {
+    font-size: larger;  /*seletor contextual*/
+    color: blueviolet;
+}
+
+::placeholder {
+    color: white; 
+}

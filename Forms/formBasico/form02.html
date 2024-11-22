@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form2</title>
+</head>
+<body> 
+    <form>
+        <h1>Inscrição para evento</h1>
+        <label for="dados">Nome completo:</label>
+        <input type="text" name="dados" placeholder="Digite seu nome completo..." required>
+        <br><br>
+        <label for="dados">Email:</label>
+        <input type="email" name="dados" placeholder="Digite seu email..." required>
+        <br><br>
+        <label for="dados">telefone:</label>
+        <input type="text" name="dados" placeholder="Digite seu telefone" required>
+        <br><br>
+        <label for="area">Área de interesse:</label>
+        <select>
+            <option value="Selecione">Selecione</option>
+            <option value="Tecnologia">Tecnologia</option>
+            <option value="Negócios">Negócios</option>
+            <option value="Criatividade">Criatividade</option>
+            <option value="Outros">Outros</option>
+        </select>
+        <br><br>
+        <label for="preferencia">Preferência alimentar:</label>
+        <input type="radio" name="vegetariano" value="vegetariano">Vegetariano <input type="radio" name="vegano" value="vegano">Vegano <input type="radio" name="onivoro" value="onivoro" checked>Onívoro
+        <br><br>
+        <label for="alergias">Alergias?</label>
+        <br>
+        <input type="radio" name="S" id="S">Sim  <input type="radio" name="N" id="N">Não
+        <br><br>
+        <label for="alergias">Liste suas alergias:</label>
+        <textarea name="obs" id="obs" cols="20" rows="5">Digite sua mensagem...</textarea>
+        <br><br>
+        <input type="submit" name="enviar">
+    </form>
+    
+</body>
+</html>

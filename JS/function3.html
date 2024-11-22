@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function pegarValor(){
+            num1 = parseFloat(document.getElementById('num1').value);
+            num2 = parseFloat(document.getElementById('num2').value);
+            mais('a,b');
+            menos('a,b');
+            divisao('a,b');
+            multiplicacao('a,b');
+        }
+        function mais(a,b){
+            resultado1 = num1 + num2;
+            alert(num1 + '+' + num2 + '=' + resultado1);
+        }
+        function menos(a,b){
+            resultado2 = num1 - num2;
+            alert(num1 + '-' + num2 + '=' + resultado2);
+        }
+        function divisao(a,b){
+            resultado3 = num1 / num2;
+            alert(num1 + '/' + num2 + '=' + resultado3);
+        }
+        function multiplicacao(a,b){
+            resultado4 = num1 * num2;
+            alert(num1 + '*' + num2 + '=' + resultado4);
+        }
+    </script>
+</head>
+<body>
+    <input type="text" name="num1" id="num1">
+    <input type="text" name="num2" id="num2">
+    <br><br>
+
+    <input type="button" value="mais" onclick="pegarValor();">
+    <input type="button" value="menos" onclick="pegarValor();">
+    <input type="button" value="divisao" onclick="pegarValor();">
+    <input type="button" value="multiplicacao" onclick="pegarValor();">
+</body>
+</html>

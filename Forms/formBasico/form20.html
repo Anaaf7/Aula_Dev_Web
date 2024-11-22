@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Formulário de solicitação de serviços</h3>
+    <br>
+    <label for="introducao">Obrigado por escolher nossos serviços!</label>
+    <br>
+    <label for="introducao">Para que possamos atender sua solicitação da melhor forma possível, solicitamos que preencha o seguinte formulário:</label>
+    <br><br>
+
+    <h3>Dados pessoais</h3>
+    <br><br>
+
+    <label for="nome">Nome completo:</label>
+    <input type="text" name="nome" required>
+    <br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" name="email" required>
+    <br><br>
+
+    <label for="telefone">Telefone:</label>
+    <input type="tel" name="telefone">
+    <br><br>
+
+    <label for="cpf">CPF:</label>
+    <input type="number" name="cpf">
+    <br><br>
+
+    <label for="rg">RG:</label>
+    <input type="number" name="rg">
+    <br><br>
+
+    <label for="endereco">Endereço completo:</label>
+    <input type="text" name="endereco">
+    <br><br>
+
+    <h3>Tipo de srviço</h3>
+    <br><br>
+
+    <label for="tiposervico">Selecione o serviço desejado:</label>
+    <select name="tiposervico">
+        <option value="selecione">Selecione um serviço</option>
+        <option value="agendamento">Agendamento</option>
+        <option value="evento">Evento</option>
+        <option value="consultoria">Consultoria</option>
+    </select>7
+    <br><br>
+
+    <label for="descricao">Descreva detalhadamente o serviço a ser realizado:</label>
+    <br>
+    <textarea name="descricao"></textarea>
+    <br><br
+    
+    <label>Anexe fotos ou arquivos relevantes(opcional):</label>
+    <input type="image" name="foto">
+    <br><br>
+
+    <h3>Data e hora</h3>
+    <br>
+
+    <label for="data">Data desejada para os erviço:</label>
+    <br>
+    <input type="date" name="data">
+    <br><br>
+
+    <label for="horario">Horário desejado para o serviço:</label>
+    <input type="time" name="horario">
+    <br><br>
+
+    <label for="obs">Observações: <br> 
+        Informe sua disponibilidade para egendamento. <br>
+        Podemos verificar a disponibilidade do profissional em tempo real.</label>
+        <br><br>
+
+    <h3>Informações adicionais</h3>
+    <br>
+
+    <label for="obs">Outras informações relevantes:</label>
+    <br>
+    <textarea name="obs"></textarea>
+    <br><br>
+
+    <h3>Pagamento</h3>
+    <br><br>
+
+    <label for="pagamento">Selecione a forma de pagamento</label>
+
+    <br><br>
+
+    <label for="obs">Observações: <br>
+        Informe se deseja parcelar o pagamento <br>
+        O valor de serviço poderá ser informado após análise da sua solicitação.</label>
+    <br><br>
+
+    <h3>Contato e confirmação</h3>
+    <br><br>
+
+    <label for="email">Confirme seu endereço de email:</label>
+    <br>
+    <input type="email" name="email" required>
+    <br><br>
+
+    <label for="telefone">Confirme seu telefone:</label>
+    <br>
+    <input type="tel" name="telefone" required>
+    <br><br>
+
+    <label for="notificacoes">Deseja receber notificações por emial ou SMS?</label>
+    <br>
+    <select name="notificacoes">
+        <option value="email">Email</option>
+        <option value="sms">SMS</option>
+    </select>
+    <br><br>
+
+    <label for="termos">Ao clicar em "enviar", você concorda como os termos e política de privacidade</label>
+    <br><br>
+
+    <input type="submit" value="Enviar solicitação">
+
+
+</body>
+</html>

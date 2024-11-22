@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form29</title>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <h1>Inscriçaõ em concurso público</h1>
+
+            <fieldset>
+                <legend>Dados pessoais</legend>
+
+                <label for="nome">Nome completo:</label><br>
+                <input type="text" name="nome" id=""><br><br>
+
+                <label for="cpf">CPF:</label><br>
+                <input type="text" name="cpf" id=""><br><br>
+
+                <label for="nascimento">Data de nascimento:</label><br>
+                <input type="date" name="nascimento" id=""><br><br>
+
+                <label for="rg">RG:</label><br>
+                <input type="number" name="rg" id=""><br><br>
+
+                <label for="orgaorg">Orgão expedidor:</label><br>
+                <input type="text" name="orgaorg" id=""><br><br>
+
+                <label for="estado">Unidade Federativa de nascimento:</label>
+                <select name="estado" required>
+                    <option value="selecione">Selecione</option>
+                    <option value="acre">Acre</option>
+                    <option value="amazonas">Amazonas</option>
+                    <option value="alagoas">Alagoas</option>
+                    <option value="amapa">Amapá</option>
+                    <option value="ceara">Ceará</option>
+                    <option value="bahia">Bahia</option>
+                    <option value="df">Distrito Federal</option>
+                    <option value="es">Espírito Santo</option>
+                    <option value="goias">Goiás</option>
+                    <option value="maranhao">Maranhão</option>
+                    <option value="mt">Mato Grosso</option>
+                    <option value="ms">Mato Grosso do Sul</option>
+                    <option value="mg">Minas Gerais</option>
+                    <option value="para">Pára</option>
+                    <option value="paraiba">Paraíba</option>
+                    <option value="parana">Parána</option>
+                    <option value="pernanbuco">Pernambuco </option>
+                    <option value="piaui">Piauí </option>
+                    <option value="rj">Rio de Janeiro</option>
+                    <option value="rn">Rio Grande do Norte</option>
+                    <option value="rs">Rio Grande do Sul</option>
+                    <option value="rodonia">Rondônia </option>
+                    <option value="roraima">Roraima </option>
+                    <option value="sc">Santa Catarina</option>
+                    <option value="sp">São Paulo</option>
+                    <option value="sergipe">Sergipe </option>
+                    <option value="tocantins">Tocantins</option>
+                </select>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Formação acadêmica</legend>
+                <label for="formacao">Nível de formação: </label>
+                <select name="formacao" id="">
+                    <option value="efundamental">Ensino Fundamental</option>
+                    <option value="emedio">Ensino Médio</option>
+                    <option value="tecnico">Técnico</option>
+                    <option value="esuperior">Ensino Superior</option>
+                    <option value="graduacao">Pós-graduação</option>
+                    <option value="mestrado">Mestrado</option>
+                    <option value="doutorado">Doutorado</option>
+                </select><br><br>
+
+                <label for="curso">Curso:</label><br>
+                <input type="text" name="curso" id=""><br><br>
+
+                <label for="instituicao">Instituição: </label>
+                <input type="text" name="instituicao" id=""><br>
+
+                <label for="conclusao">Ano de conclusão: </label>
+                <input type="number" name="conclusao" id="">
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Experiência Profissional</legend>
+
+                <label for="empresa">Empresa: </label><br>
+                <input type="text" name="empresa" id=""><br><br>
+
+                <label for="cargo">Cargo: </label><br>
+                <input type="text" name="cargo" id=""><br><br>
+
+                <label for="ptrabalho">Período de trabalho: </label><br>
+                <input type="text" name="ptrabalho" id=""><br><br>
+
+                <label for="descricao">Descrição das atividades:</label><br>
+                <textarea name="descricao" id="" cols="50" rows="5"></textarea>
+            </fieldset>
+            <br><br>
+
+            <fieldset>
+                <legend>Cargo pretendido</legend>
+
+                <label for="cargop">Cargo pretendido:</label><br>
+                <input type="text" name="cargop" id="">
+            </fieldset>
+            <br><br>
+
+            <input type="submit" value="Enviar inscrição">
+        </fieldset><br><br>
+
+        <b>Inscrição em concurso público</b>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome completo:</th>
+                    <th>CPF:</th>
+                    <th>Data de nascimento:</th>
+                    <th>RG:</th>
+                    <th>Orgão expedidor:</th>
+                    <th>UF de nascimento:</th>
+                    <th>Endereço completo:</th>
+                    <th>Cidade:</th>
+                    <th>Estado:</th>
+                    <th>CEP:</th>
+                    <th>Nível de formação:</th>
+                    <th>Curso:</th>
+                    <th>Instituição de Ensino:</th>
+                    <th>Ano de conclusão:</th>
+                    <th>Empresa:</th>
+                    <th>Cargo:</th>
+                    <th>Período de trabalho:</th>
+                    <th>:Descrição de atividades</th>
+                    <th>Cargo pretendido:</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>José da Silva</td>
+                    <td>123.456.789-10</td>
+                    <td>1990-01-01</td>
+                    <td>1234567</td>
+                    <td>SSP</td>
+                    <td>SP</td>
+                    <td>Rua dos Bobos, nº 0</td>
+                    <td>São Paulo</td>
+                    <td>São Paulo</td>
+                    <td>01234-567</td>
+                    <td>Ensino Superior</td>
+                    <td>Engenharia da computação</td>
+                    <td>Universidade de São Paulo</td>
+                    <td>2015</td>
+                    <td>Empresa X</td>
+                    <td>Desenvolvedor</td>
+                    <td>2018-2020</td>
+                    <td>Desenvolvimento de sistemas</td>
+                    <td>Analista de sistemas</td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>

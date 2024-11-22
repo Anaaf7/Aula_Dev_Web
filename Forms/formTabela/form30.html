@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form30</title>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Avaliação do funcionário</legend>
+
+            <label for="id">ID do funcionário: </label>
+            <input type="number" name="id" id=""><br><br>
+
+            <label for="departamento">Departamento: </label>
+            <input type="text" name="departamento" id=""><br><br>
+
+            <label for="cargo">Cargo: </label>
+            <input type="text" name="cargo" id=""><br><br>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Avaliação por competência</legend>
+
+            <label for="competencia">Competência Técnica: </label>
+            <select name="competencia" id="">
+                <option value="excelente">Excelente</option>
+                <option value="bom">Bom</option>
+                <option value="regular">Regular</option>
+                <option value="fraco">Fraco</option>
+            </select><br><br>
+
+            <label for="comunicacao">Comunicação: </label>
+            <select name="comunicacao" id="">
+                <option value="excelente">Excelente</option>
+                <option value="bom">Bom</option>
+                <option value="regular">Regular</option>
+                <option value="fraco">Fraco</option>
+            </select><br><br>
+
+            <label for="tequipe">Trabalho em equipe: </label>
+            <select name="tequipe" id="">
+                <option value="excelente">Excelente</option>
+                <option value="bom">Bom</option>
+                <option value="regular">Regular</option>
+                <option value="fraco">Fraco</option>
+            </select><br><br>
+
+            <label for="adaptabilidade">Adaptabilidade: </label>
+            <select name="adaptabilidade" id="">
+                <option value="excelente">Excelente</option>
+                <option value="bom">Bom</option>
+                <option value="regular">Regular</option>
+                <option value="fraco">Fraco</option>
+            </select><br><br>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Comentários</legend>
+
+            <label for="comentarios">Comentários  gerais:</label>
+            <textarea name="comentarios" id="" cols="30" rows="6"></textarea><br><br>
+
+            <label for="comentarios">Comentários  gerais:</label>
+            <textarea name="comentarios" id="" cols="30" rows="6"></textarea>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Avaliação final</legend>
+
+            <label for="nota">Nota final: </label>
+            <input type="number" name="nota" id=""><br><br>
+
+            <label for="status">Status da avaliação: </label>
+            <select name="status" id="">
+                <option value="aprovado">Aprovado</option>
+                <option value="emdesenvol">Em desenvolvimento</option>
+                <option value="reprovado">reprovado</option>
+            </select>
+        </fieldset>
+        <br><br>
+        <input type="submit" value="Enviar avaliação"><hr><br><br>
+
+        <b>Avaliação de desempenho</b>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID do funcionário:</th>
+                    <th>Departamento:</th>
+                    <th>Cargo:</th>
+                    <th>Competência Técnica:</th>
+                    <th>Comunicação:</th>
+                    <th>Trabalho em equipe:</th>
+                    <th>Adaptabilidade</th>
+                    <th>Comentários gerais</th>
+                    <th>Recomendações para melhroia</th>
+                    <th>Nota final</th>
+                    <th>Status da avaliação</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>12345</td>
+                    <td>Desenvolvimento</td>
+                    <td>Desenvolvedor</td>
+                    <td>Excelente</td>
+                    <td>Bom</td>
+                    <td>Excelente</td>
+                    <td>Regular</td>
+                    <td>O funcionário tem demosntrado habilidades técnicas excelentes e boa comunicação.</td>
+                    <td>Melhorar a adptabilidade em novos projetos.</td>
+                    <td>8</td>
+                    <td>Aprovado</td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>

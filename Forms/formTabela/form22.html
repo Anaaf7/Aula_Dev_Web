@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form22</title>
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <h1>Cadastro de evento</h1>
+
+            <label for="nome">Nome do evento: </label>
+            <input type="text" name="nome" placeholder="digite o nome do evento">
+            <br>
+
+            <details>
+                <summary>Detalhes do evento</summary>
+
+                <label for="data">Data do evento: </label>
+                <input type="date" name="data">
+                <br>
+                <label for="hora">Hora do evento: </label>
+                <input type="time" name="hora">
+                <br>
+                <label for="local">Local do evento: </label>
+                <input type="text" name="local" placeholder="escreva o local">
+            </details>
+            <br><br>
+
+            <label for="tevento">Tipo de evento: </label>
+            <select name="tevento" id="">
+                <option value="social">Social</option>
+                <option value="corporativo">Corporativo</option>
+                <option value="cultural">Cultural</option>
+                <option value="esportivo">Esportivo</option>
+            </select>
+            <br>
+
+            <label for="finalidade">Finalidade: </label>
+            <textarea name="finalidade" id="">Escreva a finalidade do evento...</textarea>
+            <br>
+
+            <label for="imagem">Imagem de evento</label>
+            <input type="file" name="imagem">
+            <br>
+
+            <input type="submit" value="cadastrar">
+            <input type="reset" value="cancelar">
+            <br><br><hr>
+
+            <b>Aprsentação de eventos</b>
+            <table>
+                <thead>
+                    <!--Cabeçalho da coluna-->
+                    <tr>
+                        <th>Nome do evento:</th>
+                        <th>Data do evento:</th>
+                        <th>Hora do evento:</th>
+                        <th>Local do evento:</th>
+                        <th>Tipo</th>
+                        <th>Finalidade:</th>
+                        <th>Imagem:</th>
+                    </tr>
+                </thead>
+               <tbody>
+                <tr>
+                    <!--células da tabela-->
+                    <td>Festa de 16 anos</td>
+                    <td>10/09/2024</td>
+                    <td>20:00</td>
+                    <td>Madrid Eventos Rio do Sul</td>
+                    <td>Social</td>
+                    <td>Celebrar o aniversario</td>
+                    <td><img src="https://cozinhaencantada.com.br/wp-content/uploads/2019/09/Bolos-Personalizados-em-Forma-de-Gato7.jpg"
+                        alt="Bolo de gatinho" width="90px"></td>
+                    </tr> 
+               </tbody> 
+            </table>
+        </fieldset>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,163 @@
+.container 
+{
+    display: flex;
+    justify-content: center;  /* Centralizar horizontalmente */
+    align-items: center;  /* Centralizar verticalmente */
+    height: 100vh;  /* Altura total da viewport */
+}
+
+.fieldset{         /*TURMAS*/
+    border: 2px solid #000000;
+    border-radius: 20px;
+    padding: 50px;
+    margin: 10px 0;
+    background-color:#a0a0e9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+
+.fieldset1 /*------------INDEX--------------*/
+{
+        border: 2px solid #000000;
+        border-radius: 05px;
+        padding: 50px;
+        margin: 10px 0;
+        background-color: #a0a0e9;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+
+.button-link /*INDEX, TURMAS*/
+{
+        display: inline-block;  /* Tratar o link como bloco inline */
+        padding: 15px 100px;  /* Espaçamento interno */
+        background-color: #ffffff;  /* Cor de fundo */
+        color: rgb(0, 0, 0);  /* Cor do texto */
+        border-radius: 20px;  /* Cantos arredondados */
+        text-align: center;  /* Centralizar o texto */
+        text-decoration: none;  /* Remover sublinhado */
+        font-weight: bold;  /* Texto em negrito */
+        transition: background-color 0.3s, box-shadow 0.3s;
+        border: 2px solid #000000;
+}    
+
+    body::before 
+{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p1/2863403-material-escolar-fundo-colorido-vetor.jpg);
+        background-size: cover;
+        background-position: center;
+        filter: blur(10px); /* Aplica o efeito de desfoque à imagem de fundo */
+        z-index: -1; 
+}
+
+
+/*Login do professor e aluno*/
+
+.fieldset2
+{
+    border: 2px solid #000000;
+    border-radius: 05px;
+    padding: 10px;
+    width: 500px;
+    margin: 10px 0;
+    background-color: #a0a0e9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}    
+
+.name
+{
+    background-color: rgb(255, 255, 255); /* Cor de fundo */
+    border: 2px solid #000000;
+    border-radius: 10px;  /* Cantos arredondados */
+    padding: 0.2px 60px;  /* Espaçamento interno */
+}
+
+.password
+{
+    background-color: rgb(255, 255, 255); /* Cor de fundo */
+    border: 2px solid #000000;
+    border-radius: 10px;  /* Cantos arredondados */
+    padding: 0.2px 60px;  /* Espaçamento interno */
+}
+
+/*Login do professor*/
+
+
+/*Estilização submit, reset e voltar*/ 
+
+input[type="submit"] {
+    padding: 6px;   /*Espaço da letra para a borda */
+    border: none;   /*Retirar o traço da borda */
+    background-color: #007BFF;  /*Cor de fundo */
+    color: white;  /*Cor da letra */
+    border: 2px solid black; /*Borda*/
+    }
+
+input[type="reset"] {
+    padding: 6px;  /*Espaço da letra para a borda */
+    border: none; /*Retirar o traço da borda */
+    background-color: #6c757d; /*Cor de fundo */
+    color: white;         /*Cor da letra */
+    border: 2px solid black;  /*Borda*/
+    }
+
+.button1   /*Voltar tela inicial*/
+    {
+
+    padding: 6px;  /*Espaço da letra para a borda */
+    background-color: #ff0000; /*Cor de fundo */
+    color: rgb(0, 0, 0);      /*Cor da letra */
+    text-decoration: none;     /*Retira o sublinhado*/
+    border: 2px solid black;    /*Borda*/
+   }
+
+.button2 {    /*Suporte*/
+    padding: 6px;  /*Espaço da letra para a borda */
+    background-color: rgb(168, 168, 168);  /*Cor de fundo */
+    color: black; /*Cor da letra */
+    text-decoration: none;  /*Retira o sublinhado*/
+    border: 2px solid black; /*Borda*/
+}
+
+img {    /*IMAGEM*/
+    max-width: 250px; /*Tamanho da imagem*/
+    margin-right: 25px; /* dar espaço a direita*/
+    margin-left: 25px;  /* dar espaço a esquerda*/
+}
+
+body {  /*Toda a tela do site*/
+    display: flex;  /*Centralizar*/
+    justify-content: center;  /*Centralizar*/
+    }
+
+
+fieldset {   
+    border-radius: 25px; /* Deixar a borda do fieldset arredondada*/ 
+    }
+
+h1 {  /*Titulo: Fale conosco*/
+    display: flex; /*Centralizar*/
+    justify-content: center;  /*Centralizar*/
+}
+
+label {  
+    display: flex;  /*Centralizar*/
+    justify-content: center;   /*Centralizar*/
+}
+
+
+input, textarea {  /*Caixas de entrada*/
+    margin-left: 70px;   /*Centralizar deixando espaço a esquerda*/  
+}

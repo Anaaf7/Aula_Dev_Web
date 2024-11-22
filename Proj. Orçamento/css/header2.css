@@ -1,0 +1,26 @@
+header{
+    display: flex; /*Elemntos na mesma linha*/
+    justify-content: space-between; /*Espaçamento cabeçalho*/
+    
+    
+}
+
+.logo{
+    font-family: "Poppins", sans-serif;
+    color: #ffffff; 
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: -1px; 
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 2rem; /*Espaçar as opções do menu*/
+}
+
+a{
+    color: #007041;
+    text-decoration: none;
+}
+

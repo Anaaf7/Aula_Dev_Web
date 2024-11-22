@@ -1,0 +1,120 @@
+/*Lista 1*/ 
+.pasta{
+    list-style-image: url(../at_listas/imagens/pasta.png);
+}
+
+/*Lista 2*/
+.arquivo{
+    list-style-image: url(../at_listas/imagens/arquivo.png);
+}
+
+.text{
+    list-style-image: url(../at_listas/imagens/text.png);
+}
+
+/*Lista 3*/
+.pdf{
+    list-style-image: url(../at_listas/imagens/pdf.png);
+}
+
+.pastapb{
+    list-style-image: url(../at_listas/imagens/pasta_pb.png);
+}
+
+.arquivopb{
+    list-style-image: url(../at_listas/imagens/arquivo_pb.png);
+}
+
+.arquivoimp{
+    list-style-image: url(../at_listas/imagens/arquivo_imp.png);
+}
+
+/*Lista 4*/
+
+label{
+    color: grey;
+    font-size: 13px;
+    
+}
+
+.internet{
+    list-style-image: url(../at_listas/imagens/internet.png);
+}
+
+.email{
+    list-style-image: url(../at_listas/imagens/email.png);
+}
+
+.windowsup{
+    list-style-image: url(../at_listas/imagens/windowsup.png);
+}
+
+.setprog{
+    list-style-image: url(../at_listas/imagens/windows.png);
+}
+
+.msn{
+    list-style-image: url(../at_listas/imagens/msn.png);
+}
+
+.windowsmed{
+    list-style-image: url(../at_listas/imagens/windowsmed.png);
+}
+
+.windowsmes{
+    list-style-image: url(../at_listas/imagens/windowsmess.png);
+}
+
+.command{
+    list-style-image: url(../at_listas/imagens/command.png);
+}
+
+/*lIsta 5*/
+
+*{
+    list-style-type: circle;
+}
+
+.php{
+    list-style-image: url(../at_listas/imagens/php.png);
+}
+
+.js{
+    list-style-image: url(../at_listas/imagens/js.png);
+}
+
+.phyton{
+    list-style-image: url(../at_listas/imagens/python.png);
+}
+
+.html{
+    list-style-image: url(../at_listas/imagens/html.png);
+}
+
+.css{
+    list-style-image: url(../at_listas/imagens/css.png);
+}
+
+.jquery{
+    list-style-image: url(../at_listas/imagens/jquery.png);
+}
+
+.mysql{
+    list-style-image: url(../at_listas/imagens/mysql.png);
+}
+
+.postgresql{
+    list-style-image: url(../at_listas/imagens/postgresql.png);
+}
+
+.mongodb{
+    list-style-image: url(../at_listas/imagens/mongodb.svg);
+}
+
+.linux{
+    list-style-image: url(../at_listas/imagens/linux.png);
+}
+
+.macos{
+    list-style-image: url(../at_listas/imagens/macos.png);
+}

@@ -1,0 +1,31 @@
+h1 em {
+    color: red;   /*seletor contextual*/
+}
+
+
+/*exercicio
+projeto de hoje,aplicar ID, aplicar class, agrupamento, herança e seletor contextual
+*/
+
+
+/*
+body {
+    color: grey;
+}
+
+ul {
+    font-size: 45px;
+    font-style: italic;
+    color: red;
+}
+
+.paragrafo{
+    color: aqua;
+}*/
+
+/*ANOTAÇÕES*/
+/*pai de todos HTML*/
+
+/*head e body são os filhos*/
+
+/*body é o elemento pai dos elementos visuais do site*/

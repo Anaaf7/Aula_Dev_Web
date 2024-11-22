@@ -1,0 +1,23 @@
+.arial{
+    font-family: 'Arial';
+}
+
+.arial.b{
+    font-family: 'Arial Black';
+}
+
+.arial.h{
+    font-family: 'Arial Helvetica';
+}
+
+.times{
+    font-family: 'Times New Roman';
+}
+
+.tahoma{
+    font-family: 'tahoma';
+}
+
+.geneva{
+    font-family: 'geneva';
+}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Currículo</legend>
+            
+            <label for="nome">Nome</label>
+            <input name="nome" placeholder="Digite seu nome completo..."  size="30" required>
+            <br>
+            <label for="nascimento">Nascimento</label>
+            <input type="date" required>
+            <br><br>
+            <label for="email">Email</label>
+            <input name="email" placeholder="Digite seu email..."  size="30" required>
+            <br>
+            <label for="telefone">Telefone</label>
+            <input type="tel" placeholder="(   )" size="15" required>
+            <br>
+            <br>
+            <legend>Selecione seu grau de escolaridade</legend>
+            <select>
+                <option value="fundamental">Ensino fundamental</option>
+                <option value="medio">Ensino médio</option>
+                <option value="superior">Ensino superior</option>
+            
+            </select>
+            <br><br>
+            <legend>Selecione em qual cidade você mora</legend>
+            <select>
+                <option value="laurentino">Laurentino</option>
+                <option value="lontras">Lontras</option>
+                <option value="riodosul">Rio do Sul</option>
+            </select>
+            <br><br>
+            <legend>Em qual das áreas você melhor se encaixa?</legend>
+            <input type="radio" value="adm" required>Administrativo
+            <input type="radio" value="financeiro" required>Financeiro
+            <br><br>
+            <legend>Você possui experiência na área da vaga desejada?</legend>
+            <input type="radio" value="sim" required>Sim
+            <br>
+            <input type="radio" value="nao" required>Não
+            <br><br>
+            <textarea name="obs"  cols="50" rows="5" placeholder="Fale sobre sua experiência profissional aqui..."></textarea>
+            <br><br><br>
+            <input type="submit" name="enviar"> 
+            <br>
+            </fieldset>
+            </form>
+            <br>
+            <form>
+                <fieldset>
+                    <legend>Contatos</legend>
+                   
+                    <label for="nome">Nome</label>
+                    <input tyoe="name" placeholder="Digite seu nome..." size="30" required><br>
+                    
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" placeholder="Digite seu telefone..." size="15" required>
+                    <br><br>
+                    <input type="submit" name="enviar">
+                </fieldset>
+            <form>
+            <br>
+            <form>
+                <fieldset>
+                    <legend>Curso de informática</legend>
+                    
+                    <label for="nome">Nome</label>
+                    <input type="nome" placeholder="Digite seu nome completo..." size="30"required>
+                    <br>    
+                    <label for="idade">Idade</label>
+                    <input type="date" placeholder="Digite sua idade..." size="20" required> 
+                    <br>
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" placeholder="Digite seu telefone..." size="15" required>
+                    <br><br>
+                    <legend>Você possui conhecimentos prévios sobre informática?</legend>
+                    <input type="radio" required name="sim" value="S"> Sim 
+                    <br>
+                    <input type="radio" required name="nao" value="N"> Não
+                    <br><br>
+                    <input type="submit" name="enviar">
+                </fieldset>
+            </form>
+            <br>
+            <form>
+                <fieldset>
+                    <legend>Login</legend>
+                    
+                    <label for="login">Email</label>
+                    <input type="name" placeholder="Digite seu email..." size="37" required><br>
+                    
+                    <label for="senha">Senha</label>
+                    <input type="password" placeholder="Digite sua senha..." size="20" required>
+                    <br><br>
+                    <input type="checkbox" name="conectado" value="ok">Manter-se conectado
+                    <br><br>
+                    <input type="submit" name="enviar">
+                </fieldset>
+                </form>
+                <br>
+                <form>
+                    <fieldset>
+                        <legend>Cardápio</legend>
+                         
+                        <label for="mesa">Número da mesa</label>
+                        <input type="text" size="1" required>
+                        <br><br>
+                        <select multiple="multiple">
+                
+                           <optgroup label="Entradas">
+                             <option value="tabuafrio">Tábua de frios</option>
+                            <option value="canapes">Canapés</option> 
+                            <option value="bolinhocarne">Bolinho de carne seca</option> 
+                            <option value="torradas">Torradas</option>    
+                        </optgroup>
+                          
+                        </select>
+                        <br><br>
+                        <select multiple="multiple">
+                            
+                            <optgroup label="Prato principal">
+                                <option value="feijoada">Feijoada</option>
+                                <option value="macarronada">Macarronada</option> 
+                                <option value="risoto">Risoto</option> 
+                                <option value="strogonoff">Strogonoff</option> 
+                            </optgroup>    
+                              
+                        </select>
+                        <br><br>
+                        <select multiple="multiple">
+                            <optgroup label="Saladas">
+                                <option value="mista">Mista</option>
+                                <option value="mediterranea">Mediterrânea</option> 
+                                <option value="vinagrete">Vinagrete</option> 
+                            </optgroup>
+                                    
+                              </select>
+                        <br><br>
+                        <select multiple="multiple">
+                               <optgroup label="Sobremesas"> 
+                                <option value="sorvete">Sorvete</option>
+                                <option value="brigadeiro">Brigadeiro</option> 
+                                <option value="pudim">Pudim</option>
+                                <option value="bolo">Bolo</option>    
+                                <option value="">Pudim</option> 
+                            </optgroup>
+                              </select>
+                              <br><br>
+                        <input type="reset" name="redefinir">
+                              <br><br>
+                            <textarea name="obr" cols="35" rows="3" placeholder="Observações no pedido..."></textarea>
+                        <br><br>
+                        <input type="submit" name="enviar">
+                        
+                    
+                    </fieldset>
+                </form>
+                
+                
+                
+
+</body>
+</html>

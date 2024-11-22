@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form21</title>
+</head>
+
+<body>
+    <form action="">
+        <h1>Cadastro de usuários</h1>
+
+        <label for="nome">Nome completo: </label>
+        <input type="text" name="nome" id="" placeholder="Digite seu nome...">
+        <br>
+
+        <label for="email">E-mail: </label>
+        <input type="email" name="email" id="" placeholder="digite@gmail.com">
+        <br>
+
+        <label for="cpf">CPF: </label>
+        <input type="number" name="cpf" id="" placeholder="*** *** ***-**">
+        <br>
+
+        <details>
+            <summary>Endereço completo:</summary>
+            <label for="estado">Estado: </label>
+            <input type="text" name="estado" id="" placeholder="sigla do estado ">
+            <br>
+
+            <label for="cidade">Cidade: </label>
+            <input type="text" name="cidade" id="" placeholder="nome da cidade">
+            <br>
+
+            <label for="bairro">Bairro: </label>
+            <input type="text" name="bairro" id="" placeholder="nome do bairro">
+            <br>
+
+            <label for="rua">Rua: </label>
+            <input type="text" name="rua" id="" placeholder="nome da rua">
+        </details>
+        <br>
+
+        <label for="senha">Senha: </label>
+        <input type="password" name="senha" placeholder="senha de tamanho minimo 8">
+        <br>
+        <label for="csenha">Confirmar senha: </label>
+        <input type="password" name="csenha" placeholder="confirmar sua senha">
+        <br>
+
+        <input type="submit" value="Cadastrar">
+        <input type="reset" value="Cancelar">
+        <br><br><hr>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Apresentação de usuários</th><!--cabeçalho-->
+                </tr>
+                <!--Cabeçalho da coluna-->
+                    <th>Nome:</th>
+                    <th>E-mail:</th>
+                    <th>CPF:</th>
+                    <th>Estado:</th>
+                    <th>Cidade</th>
+                    <th>Bairo:</th>
+                    <th>Rua:</th>
+                    <th>Senha:</th>
+            </thead>
+           <thead>
+           <tbody>
+                <!--células da tabela-->
+                <td>José Almeida Campos</td>
+                <td>josealmeidacampos02102@gmail.com</td>
+                <td>843.834.710-05</td>
+                <td>Santa Catarina</td>
+                <td>Rio do Sul</td>
+                <td>Jardim América</td>
+                <td>Abraham Lincoln</td>
+                <td>1324</td>
+           </tbody> 
+           </thead>
+        </table>
+    </form>
+</body>
+</html>

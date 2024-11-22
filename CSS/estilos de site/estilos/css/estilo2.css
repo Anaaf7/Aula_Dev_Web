@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(158, 0, 0);/*cor de fundo da página*/
+}
+
+fieldset {
+    background-image: url('https://steamuserimages-a.akamaihd.net/ugc/491274240805530044/F8F8374A3171BAEB516985D69F0F61B467EBDF43/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false'); 
+    background-size: cover; /* Cobrir todo o campo */
+    background-color: black; /*cor de fundo do site*/
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellow; /*cor das letras*/
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellow; /*cor das letras*/
+}
+
+::placeholder {
+    color: black; /*cor das letras do placeholder*/
+}
+
+input[type="submit"] {
+    background-color: yellow; /*cor dentro do input*/
+    width: 100%; /*comprimento do input*/
+    padding: 10px; /*largura do input*/
+    font-weight: bold; /*espessura da letra*/
+}
+

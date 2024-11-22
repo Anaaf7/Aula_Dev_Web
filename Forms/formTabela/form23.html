@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form23</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <h1>Submissão de projeto</h1>
+
+            <label for="nome">Nome do projeto: </label>
+            <input type="text" name="nome" id="" placeholder="digite o nome do seu projeto...">
+            <br><br>
+
+            <label for="descricao">Descrição:</label>
+            <br><br>
+            <textarea name="descricao" id="">Digite a descrição...</textarea>
+            <br><br>
+
+            <label for="artigo">Artigo do projeto:</label>
+            <br><br>
+            <input type="file" name="artigo" id="">
+            <br>
+
+            <label for="tipop">Tipo do projeto:</label>
+            <br><br>
+            <select name="tipop" id="">
+                <option value="pesquisa">Pesquisa</option>
+                <option value="extensao">Extensão</option>
+                <option value="desenvolvimento">Desenvolvimento</option>
+            </select>
+            <br>
+
+            <label for="porcentagem">Etapa de conclusão em %</label>
+            <br>
+            <input type="range" name="porcentagem" id="">
+            <br>
+            <input type="button" value="Aumentar">
+            <input type="button" value="Reduzir">
+            <hr>
+            
+            <input type="submit" value="Submeter">
+            <input type="reset" value="Cancelar">
+            <br><br><hr>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome do projeto:</th>
+                        <th>Descrição:</th>
+                        <th>Artigo do projeto:</th>
+                        <th>Tipo:</th>
+                        <th>Porcentagem de conclusão:</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Genoma+</td>
+                        <td>Explorar o genima humano para compreender o funcionamento na área da saúde</td>
+                        <td><img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="pdf" width="70px"></td>
+                        <td>Pesquisa</td>
+                        <td>60%</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </fieldset>
+    </form>
+</body>
+</html>

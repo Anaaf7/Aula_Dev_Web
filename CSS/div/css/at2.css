@@ -1,0 +1,31 @@
+.caixa1{
+    color: pink;
+    background-color: pink;
+    padding: 15px;
+}
+
+.espaco{
+    display: flex;
+    justify-content: space-between;
+}
+
+.caixa2{
+    justify-content: left;
+    color: pink;
+    background-color: pink;
+    padding: 50px;
+}
+
+.caixa3{
+    justify-content: right;
+    color: pink;
+    background-color: pink;
+    padding: 170px;
+    padding-left: 60%;
+}
+
+.caixa4{
+    color: pink;
+    background-color: pink;
+    padding: 20px;
+}

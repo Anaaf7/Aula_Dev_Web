@@ -1,0 +1,30 @@
+body{
+    margin: 15px;
+}
+
+.caixa{
+    color: pink;
+    background-color: pink;
+    height: 50px;
+}
+
+.espacamento{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.caixas{
+    color: pink;
+    background-color: pink;
+    height: 150px;
+    width: 600px;
+
+}
+
+.caixa2{
+    color: pink;
+    background-color: pink;
+    height: 200px;
+}
+

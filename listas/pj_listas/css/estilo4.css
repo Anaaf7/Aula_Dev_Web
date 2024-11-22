@@ -1,0 +1,52 @@
+body {
+    font-family: embed code;
+    text-align: center;
+}
+
+ul{
+    list-style-type: decimal;
+}
+
+li {
+    border: solid 1px black; 
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 10px rgb(250, 250, 156);
+}
+
+.rs {
+    border-right: 10px solid #009688;
+}
+
+.sp {
+    border-right: 10px solid #3f51b5;
+}
+
+.go {
+    border-right: 10px solid #4caf50;
+}
+
+.pr {
+    border-right: 10px solid #ffeb3b;
+}
+
+.mg {
+    border-right: 10px solid #9c27b0;
+}
+
+.sc {
+    border-right: 10px solid #00bcd4;
+}
+
+.pe {
+    border-right: 10px solid #795548;
+}
+
+.rj {
+    border-right: 10px solid #e91e63;
+}
+
+.ba {
+    border-right: 10px solid #cddc39;
+}

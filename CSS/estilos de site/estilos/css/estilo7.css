@@ -1,0 +1,30 @@
+body {
+    display: flex; /*centralizar formulario*/
+    justify-content: center; /*centralizar formulario*/
+    background-color: rgb(224, 140, 140); /*cor de fundo do site*/
+}
+
+fieldset { 
+    background-color: white; /*cor de fundo do formulario*/
+    font-family: 'Courier New', Courier, monospace; /*estilo da letra/fonte*/
+}
+h1 {
+   
+    box-shadow: 5px /*sombraDireita*/ 10px /*sombra para baixo*/ 0px /*desfoque*/ rgba(255, 0, 0, 0.2) /*cor*/;
+    
+}
+
+label {
+   
+    box-shadow: 0px /*sombraDireita*/ 5px /*sombra para baixo*/ 10px /*desfoque*/ rgba(255, 0, 0, 0.2) /*cor*/;
+}
+
+input, textarea, select {
+   
+    box-shadow: 0px /*sombraDireita*/ 5px /*sombra para baixo*/ 0px /*desfoque*/ rgba(255, 0, 0, 0.2) /*cor*/;
+}
+
+    input[type="submit"] {
+        background-color:rgba(200, 53, 53, 0.2) ; /*cor da caixa do submit*/
+    }
+

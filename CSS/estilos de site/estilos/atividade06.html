@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade06</title>
+<link rel="stylesheet" href="css/estilo11.css">
+</head>
+<body>
+    
+    <form>
+        <fieldset>
+            <h1>Formulário para consultas</h1>
+
+            <!--DADOS BÁSICOS-->
+            <label for="nome"><em>Nome</em>:</label>
+            <input class="dados" type="text" name="nome" placeholder="Digite aqui..." required>
+
+            <br><br>
+
+            <label for="idade"><em>Data de nascimento</em>:</label>
+            <input class="dados" type="date" name="idade" required>
+
+            <br><br>
+
+            <label for="cpf">CPF:</label>
+            <input class="dados" type="number" name="idade" placeholder="000.000.000-00" required>
+
+            <br><br>
+
+            <label for="email">E-mail:</label>
+            <input class="dados" type="email" name="email" placeholder="Digite aqui..." required>
+
+            <br><br>
+
+            <label for="telefone">Telefone:</label>
+            <input class="dados" type="tel" name="nome" placeholder="(47) 0000-0000" required>
+
+            <br><br>
+
+            <!--ESPECIFICAÇÕES-->
+            <label for="doutor">Por qual <em>doutor</em> você deseja ser atendido(a)?</label>
+            <br>
+            <input type="radio" name="doutor" value="ricardao" required><label for="doutor">Dr. Ricardão (Pediatra)</label>
+            <br>
+            <input type="radio" name="doutor" value="galileu" required><label for="doutor">Dr. Galileu (Clínico Geral)</label>
+            <br>
+            <input type="radio" name="doutor" value="scripto" required><label for="doutor">Dr. Scripto (Cardiologista)</label>
+            <br><br>
+
+            <label for="convenio">Você possui algum tipo de convênio?</label>
+            <br>
+            <select name="convenio" id="convenio">
+                <option value="selecione">Selecione</option>
+                <option value="unimed">Unimed</option>
+                <option value="hapvida">Hapvida</option>
+                <option value="amil">Amil</option>
+                <option value="goldencros">Golden Cross</option>
+                <option value="portosaude">Porto Seguro Saúde</option>
+            </select>
+
+            <br><br>
+
+            <label for="convenio">Você tem alergia a algum medicamento?</label>
+            <br>
+            <input type="radio" name="assinalar" value="sim" required><label for="sim">Sim</label>
+            <br>
+            <input type="radio" name="assinalar" value="nao" required ><label for="nao">Não</label>
+
+            <br><br>
+
+            <textarea class="dados" name="obs" id="obs" placeholder="Se sim, especifique aqui..." cols="32" rows="2"></textarea>
+
+            <br><br>
+
+            
+            <label for="convenio">Qual <em>horário</em> você possuí preferência?</label>
+            <br>
+            <input type="radio" name="assinalar" value="manha" required><label for="assinalar">Manhã (9:30 às 11 horas)</label>
+            <br>
+            <input type="radio" name="assinalar" value="tarde" required ><label for="assinalar">Tarde (13:30 às 15 horas)</label>
+
+            <br><br>
+
+            <!--ANALISE DE PROPAGANDA-->
+            <label for="recomendacao">Como tomou conhecimento deste formulário?</label>
+            <br>
+            <input type="radio" name="recomendacao" value="amigo"><label for="amigo">Amigo</label>
+            <br>
+            <input type="radio" name="recomendacao" value="familiar"><label for="familiar">Familiar</label>
+            <br>
+            <input type="radio" name="recomendacao" value="anuncio"><label for="anuncio">Anúncio</label>
+
+            <br><br>
+
+            <label for="importante"><em>*Ao enviar este formulário você receberá um e-mail para mais informações*</em></label>
+
+            <br><br>
+
+            <input id="enviar" type="submit" value="Enviar"> 
+    
+        </fieldset>
+    </form>
+</body>
+</html>

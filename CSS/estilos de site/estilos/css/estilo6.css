@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(95,158,160); /*cor de fundo*/
+}
+
+fieldset {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(70,130,180); /*cor de fundo do formulário*/
+    border-color: yellow;
+    border-radius: 400%; /*borda do formulario arredondada*/
+    font-size: 5px; /*tamanho das letras */
+}
+
+h1 {
+    color: yellow; /*cor da letra*/
+}
+
+input[type="radio"] {
+    width: 2px; /*tamanho do botão de assinalar*/
+    height: 2px;  /*tamanho do botão de assinalar*/
+}
+
+input, textarea, select {
+    font-size: 2px; /*tamanho da caixa dos inputs e letra dentro deles*/
+    background-color:LightSkyBlue; /*cor de fundo*/
+}
+
+input[type="submit"] {
+    background-color:LightSkyBlue; /*cor de fundo*/
+}
+    
+

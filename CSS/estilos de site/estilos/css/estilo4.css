@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(56, 4, 104); /*cor de fundo*/
+}
+
+fieldset {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(115, 151, 110); /*cor de fundo do formulário*/
+    border-radius: 100px; /*borda do formulario arredondada*/
+    font-size: 70px; /*tamanho das letras */
+}
+
+input[type="radio"] {
+    width: 40px; /*tamanho do botão de assinalar*/
+    height: 40px;  /*tamanho do botão de assinalar*/
+}
+
+input, textarea, select {
+    font-size: 100px; /*tamanho da caixa dos inputs e letra dentro deles*/
+}
+
+input[type="submit"] {
+    background-color: rgb(251, 255, 0); /*cor de fundo*/
+}
+    
+

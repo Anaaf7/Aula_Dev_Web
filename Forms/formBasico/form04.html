@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form04</title>
+</head>
+<body>
+    <h1>Formulário Minecraft</h1>
+    <form>
+    <label for="nome">Nome do jogador</label>
+    <input type="text" placeholder="Digite seu nome de jogador..." size="30" required>
+    <br><br>
+    <label for="versao">Versão favorita do minecraft</label>
+    <section>
+        <option value="selecione">Selecione</option>
+        <option value="1.11">1.11</option>
+        <option value="1.14">1.14</option>
+        <option value="1.17">1.17</option>
+    </section>
+    <br><br>
+    <label>Modo de sobrevivência: </label>
+    <br>
+    <input type="radio" value="sobrevivencia" name="sobrevivencia" checked >Sobrevivência
+    <br>
+    <input type="radio" value="Criativo" name="Criativo"  >Criativo
+    <br>
+    <input type="radio" value="aventura" name="aventura"  >Aventura
+    <br><br>
+    <label>Tempo total jogado (em horas):</label>
+    <input type="number" name="horas">
+    <br><br>
+    <label for="criacao">Qual sua maior criação no minecraft?</label>
+    <textarea name="obs" id="obs" cols="20" rows="5">Descreva a sua maior criação no jogo...</textarea>
+    <br><br>
+    <label for="mod">Qual seu mod favorito (se houver):</label>
+    <input type="text" name="mod" placeholder="Digite o nome do mod...">
+    <br><br>
+    <label for="mod">Qual seu servidor favorito (se houver):</label>
+    <input type="url" name="mod" placeholder="Link para o servidor...">
+    <br><br>
+    <label for="imagem">Compartilhe a sua screenchot favorita do Minecraft (opcional)</label>
+    <input type="file" name="imagem">
+    <br><br>
+    <input type="submit" name="enviar">
+    </form>
+</body>
+</html>

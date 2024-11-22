@@ -1,0 +1,40 @@
+body {
+    display: flex; /*Para centralizar o formulário*/
+    justify-content: center; /*Para centralizar o formulário*/
+}
+
+/*TITULO*/
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex; /*Para centralizar o título*/
+    justify-content: center; /*Para centralizar o título*/
+}
+
+/*LABELS*/
+label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold; /*espessura mais grossa para a letra*/
+}
+
+/* INPUTS */
+.dados {
+    width: 95%; /*comprimento do input*/
+    padding: 10px; /*largura do input*/
+    margin-bottom: 10px; /*distãncia entre os inputs*/
+    font-size: 15px; /*tamanho da letra dentro do input*/
+}
+
+/* SUBMIT*/
+input[type="submit"] {
+    width: 100%; /*comprimento do input*/
+    padding: 10px; /*largura do input*/
+    background-color: #007BFF; /*cor dentro do input*/
+    color: white; /*cor da letra dentro do input*/
+    border: none; /*input sem borda*/
+    font-size: 15px; /*tamanho da letra dentro do input*/
+}
+
+
+
+
+

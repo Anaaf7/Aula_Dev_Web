@@ -1,0 +1,50 @@
+header{
+    display: flex; /*Elemntos na mesma linha*/
+    justify-content: space-between; /*Espaçamento cabeçalho*/
+    padding-inline: 1.5rem; /*Espaçamento do topo do site*/
+}
+
+.tmarca{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: -1px;
+    color: #ffffff;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 2rem; /*Espaçar as opções do menu*/
+}
+
+a{
+    color: #007041;
+    text-decoration: none;
+}
+
+.esquerda{
+    color: white;
+}
+
+
+
+.slogan{
+    font-family: "Poppins", sans-serif;
+    font-size: 3rem;
+    line-height: 1.1;
+    font-weight: 700;
+    
+}
+
+.meio{
+    display: flex;
+}
+
+label{
+    font-size: 0.9rem;
+    opacity: 0.6;
+    font-weight: 300;
+    line-height: normal;
+    margin-block: 1.5rem;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form08</title>
+</head>
+<body>
+    <h3>Filtragem de produtos</h3>
+    <form>
+        <label for="Selecione">Selecione a categoria:</label>
+        <br>
+        <select>
+            <option value="Todas">Todas</option>
+            <option value="Eletronicos">Eletrônicos</option>
+            <option value="Vestuario">Vestuário</option>
+            <option value="Livros">Livros</option></select>
+            <br><br>
+            <label for="Selecionem">Selecione a marca:</label>
+            <br>
+            <select>
+                <option value="Todas">Todas</option>
+                <option value="Samsung">Samsung</option>
+                <option value="Nike">Nike</option>
+                <option value="Editorasextante">Editora sextante</option></select>
+                <br><br>
+                <label for="precomi">Preço minímo</label>
+                <input type="number" name="precomi">
+                <br><br>
+                <label for="precoma">Preço máximo</label>
+                <input type="number" name="precoma">
+                <br><br>
+                <label for="cor">Escolha a cor:</label>
+                <input type="color">
+                <br><br>
+                <label for="Selecionetam">Selecione o tamanho:</label>
+                <select>
+                <option value="Todos">Todos</option>
+                <option value="P">P</option>
+                <option value="M">M</option>
+                <option value="G">G</option>
+                </select>
+                <br><br>
+                <label for="Selecionem">Selecione o material:</label>
+            <br>
+            <select>
+                <option value="Todos">Todos</option>
+                <option value="Algodao">Algodão</option>
+                <option value="Couro">Couro</option>
+                <option value="poliester">Poliéster</option></select>
+                <br><br>
+                <label for="promocao">Incluir promoção?</label>
+                <br><br>
+                <input type="radio" value="S">Sim
+                <br>
+                <input type="radio" value="N">Não
+                <br><br> 
+                <label for="novidades">Incluir novidades?</label>
+                <br><br>
+                <input type="radio" value="S">Sim
+                <br>
+                <input type="radio" value="N">Não
+                <br><br>
+                <label for="ordem">Ordem:</label>
+                <br>
+                <select>
+                    <option value="precocrescente">Preço crescente</option>
+                    <option value="precodecrescente">Preço decrescente</option>
+                    <option value="maisvendidos">Mais vendidos</option>
+                </select>
+                <input type="submit" value="filtrar">
+    </form>
+    
+</body>
+</html>

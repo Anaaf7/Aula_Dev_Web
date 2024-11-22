@@ -1,0 +1,69 @@
+@font-face{
+    font-family: "coca";
+    src: url("../fontes/lokicola/LOKICOLA.TTF")
+    format("truetype");
+}
+
+@font-face{
+    font-family: "malesung";
+    src: url("../fontes/malesung-sans/Malesung-Sans.otf")
+    format("truetype");
+}
+
+@font-face{
+    font-family: "panoptic";
+    src: url("../fontes/panoptic-monospace/PanopticMonospace-Bold.otf")
+    format("truetype");
+}
+
+@font-face{
+    font-family: "serifa";
+    src: url("../fontes/serifa-comica/Serifa\ Comica.ttf")
+    format("truetype");
+}
+
+@font-face{
+    font-family: "godfather";
+    src: url("../fontes/the-godfather/TheGodfather-v2.ttf")
+    format("truetype");
+}
+
+@font-face{
+    font-family: "civtype";
+    src: url("../fontes/civitype-fg/civitype.ttf")
+    format("truetype");
+}
+
+@font-face{
+    font-family: "falkin";
+    src: url("../fontes/falkin-sans-personal/FalkinSansItalicPERSONAL.ttf")
+    format("truetype");
+}
+
+.sans1{
+    font-family: "falkin";
+}
+
+.sans2{
+    font-family: "civtype";
+}
+
+.serifa1{
+    font-family: "serifa";
+}
+
+.serifa2{
+    font-family: "godfather";
+}
+
+.cursiva1{
+    font-family: "coca";
+}
+
+.mono1{
+    font-family: "malesung";
+}
+
+.mono2{
+    font-family: "panoptic";
+}

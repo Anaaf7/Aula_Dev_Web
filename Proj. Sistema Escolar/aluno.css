@@ -1,0 +1,46 @@
+/*ESTILIZAÇÃO TABELA*/
+table {
+    width: 100%;
+    /*Tamanho da tabela*/
+    border-collapse: collapse;
+    /*Formato da borda*/
+}
+
+table, th, td
+
+/*Tabela, cabeçalho e cédulas*/
+    {
+    border: 1px solid black;
+    /* Cor da borda da tabela */
+    text-align: center;
+    /* Centralizar o texto da tabela*/
+}
+
+
+/*Voltar tela inicial*/
+.button1 {
+    padding: 6px;
+    /*Espaço da letra para a borda */
+    background-color: #ff0000;
+    /*Cor de fundo */
+    color: rgb(0, 0, 0);
+    /*Cor da letra */
+    text-decoration: none;
+    /*Retira o sublinhado*/
+    border: 2px solid black;
+    /*Borda*/
+}
+
+/*Suporte*/
+.button2 {
+    padding: 6px;
+    /*Espaço da letra para a borda */
+    background-color: rgb(168, 168, 168);
+    /*Cor de fundo */
+    color: black;
+    /*Cor da letra */
+    text-decoration: none;
+    /*Retira o sublinhado*/
+    border: 2px solid black;
+    /*Borda*/
+}

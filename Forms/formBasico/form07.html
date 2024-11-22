@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form07</title>
+</head>
+<body>
+    <h2>Formulário caleidoscópio - Netflix</h1>
+        <form>
+            <fieldset>
+                <h3>Parte 1; Informações pessoais</h3>
+                <br>
+                <label for="Nome">Nome:</label>
+                <input type="text"required>
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email" required>
+                <br><br>
+                <label for="Idade">Idade:</label>
+                <input type="number"required>
+                <br><br>
+                <label for="pais">País</label>
+                <select required>
+                    <option value=" Selecione seu pais"> Selecione seu país</option>
+                    <option value="Brasil">Brasil</option>
+                </select>
+                <br><br><hr>
+                <h3>Parte 2: Sobre Caleidoscópio</h3>
+                <br><br>
+                <label for="assistiu">Você já assistiu Caleidoscópio?</label>
+                <br>
+                <input type="radio" value="S">Sim <input type="radio" value="N">Não
+                <br><br>
+                <label for="opniao">Se sim, qual foi a sua opnião sobre a série?</label>
+                <br><br>
+                <input type="radio" value="Gosteimuito">Gostei muito
+                <br>
+                <input type="radio" value="Gostei">Gostei
+                <br>
+                <input type="radio" value="Nãogostei">Não gostei
+                <br>
+                <input type="radio" value="naogosteimuito">Não gostei muito 
+                <br><br>
+                <label for="personagem">Qual foi o seu personagem favorito?</label>
+                <br><br>
+                <input type="text" name="personagem">
+                <br><br>
+                <label for="partfavorita">Qual foi a sua parte favorita da série?</label>
+                <br><br>
+                <input type="text" name="partfavorita">
+                <br><br>
+                <label for="recomendaria">Você recomendaria Caleidoscópio para outras pessoas?</label>
+                <br><br>
+                <input type="radio" value="S" >Sim
+                <br>
+                <input type="radio" value="N" >Não
+                <br><br>
+                <label for="pq">Por quê?</label>
+                <br><br>
+                <textarea name="obs" id="obs" cols="25" rows="3"></textarea>
+                <br><br><hr>
+                <h3>Parte 3: Sugestões e comentários</h3>
+                <br><br>
+                <label for="sugestao">Você tem alguma sugestão para melhorar Caleidoscópio?</label>
+                <br><br>
+                <textarea name="sug" id="sug" cols="25" rows="3"></textarea>
+                <br><hr>
+                <input type="submit">
+            </fieldset>
+        </form>
+    
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 11</title>
+</head>
+<body>
+    <h1>Qual seu filme favorito?</h1>
+
+    <form>
+        <label for="titulo">Título do filme favorito:</label>
+        <input type="text" name="titulo" placeholder="Digite o título do eu filme favorito" required>
+        <br><br>
+
+        <label for="ano">Ano de lançamento:</label>
+        <input type="text" name="ano" placeholder="Digite aqui..." required>
+        <br><br>
+
+        <label for="genero">Gênero favorito:</label>
+        <select name="genero">
+            <option value="selecione">Selecione</option>
+            <option value="acao">Ação</option>
+            <option value="aventura">Aventura</option>
+            <option value="comedia">Comédia</option>
+            <option value="drama">Drama</option>
+            <option value="fantasia">Fantasia</option>
+            <option value="ficcao">Ficção Científica</option>
+            <option value="horror">Horror</option>
+            <option value="musical">Musical</option>
+            <option value="romance">Romance</option>
+            <option value="suspense">Suspense</option>
+        </select>
+        <br><br>
+
+        <label for="personagem">Quem é seu personagem favorito e por que?</label>
+        <textarea name="personagem">Descreva o que te faz amar este filme...</textarea>
+        <br><br>
+
+        <label for="cena">Qual é a sua cena favorita e por que?</label>
+        <textarea name="cena">Descreva a cena favorita e por que...</textarea>
+        <br><br>
+
+        <label for="recomendacao">Você recomendaria este filme para outras pesssoas? Por quê?</label>
+        <textarea name="recomendacao">Compartilhe sua opniâo sobre a recomendação do filme...</textarea>
+        <br><br>
+
+        <label for="nota">Qual sua nota para esse filme?</label>
+        <input type="range" name="nota" required>
+        <br><br>
+
+        <input type="submit" value="Enviar">
+
+    </form>
+</body>
+</html>

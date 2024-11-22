@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(203, 203, 226);
+    border: double;
+    border-radius: 40px;
+    margin: 50px 500px 50px 500px;
+}
+
+h1, h4{
+    text-align: center;
+    text-shadow: 13px 2px 5px rgb(255, 217, 0);
+    color: white;
+}
+
+li{
+    list-style-image: url(..//css/imagens/cidade.png);
+    font-size: large;
+    text-decoration: overline;
+}
+
+.sc{
+    text-shadow: 3px 12px 5px #02792f;
+    color: #009739;
+}
+
+.pe{
+    text-shadow: 3px 12px 5px #003087;
+    color: #003087;
+}
+
+.ba{
+    text-shadow: 3px 12px 5px  #D21034;
+    color: #D21034;
+}
+
+.pr{
+    text-shadow: 3px 12px 5px #00563F;
+    color: #00563F;
+}
+
+.rs{
+    text-shadow: 3px 12px 5px #800000;
+    color: #800000;
+}
+
+.mg{
+    text-shadow: 3px 12px 5px #DAA520;
+    color: #DAA520;
+}
+
+.go{
+    text-shadow: 3px 12px 5px #B9D500;
+    color: #B9D500;
+}
+
+.sp{
+    text-shadow: 3px 12px 5px #5B6770;
+    color: #5B6770;
+}
+
+.rj{
+    text-shadow: 3px 12px 5px #0a7faa;
+    color: #00AEEF;
+}

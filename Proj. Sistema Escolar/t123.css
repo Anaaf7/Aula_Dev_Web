@@ -1,0 +1,35 @@
+/*Estilização submit, reset e voltar*/ 
+
+input[type="submit"] {
+    padding: 6px;   /*Espaço da letra para a borda */
+    border: none;   /*Retirar o traço da borda */
+    background-color: #007BFF;  /*Cor de fundo */
+    color: white;  /*Cor da letra */
+    border: 2px solid black; /*Borda*/
+    }
+
+input[type="reset"] {
+    padding: 6px;  /*Espaço da letra para a borda */
+    border: none; /*Retirar o traço da borda */
+    background-color: #6c757d; /*Cor de fundo */
+    color: white;         /*Cor da letra */
+    border: 2px solid black;  /*Borda*/
+    }
+
+.button1   /*Voltar tela inicial*/
+    {
+
+    padding: 6px;  /*Espaço da letra para a borda */
+    background-color: #ff0000; /*Cor de fundo */
+    color: rgb(0, 0, 0);      /*Cor da letra */
+    text-decoration: none;     /*Retira o sublinhado*/
+    border: 2px solid black;    /*Borda*/
+   }
+
+.button2 {    /*Suporte*/
+    padding: 6px;  /*Espaço da letra para a borda */
+    background-color: rgb(168, 168, 168);  /*Cor de fundo */
+    color: black; /*Cor da letra */
+    text-decoration: none;  /*Retira o sublinhado*/
+    border: 2px solid black; /*Borda*/
+}
